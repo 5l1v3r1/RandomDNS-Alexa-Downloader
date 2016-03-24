@@ -1,0 +1,17 @@
+{
+  "name": "randomdns-alexa-downloader",
+  "version": "1.0.0",
+  "description": "Download and convert Alexa top 1 million websites CSV to RandomDNS-compatible format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sabri Haddouche",
+  "license": "MIT",
+  "dependencies": {
+    "csv2": "^0.1.1",
+    "request": "^2.69.0",
+    "through2": "^2.0.1",
+    "unzip": "^0.1.11"
+  }
+}
